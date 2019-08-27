@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
         });
 
 
-
+/*
         tv.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View view, boolean hasFocus) {
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
                     tv.showDropDown();
                 }
             }
-        });
+        });*/
 
         tv.addTextChangedListener(this);
 
